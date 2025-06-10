@@ -1,10 +1,9 @@
+import { Slot } from 'expo-router'
 import React from 'react'
-import { Text, View } from 'react-native'
 
 const _layout = () => {
   return (
-    // <Slot />
-    <View></View>
+    <Slot />
   )
 }
 
